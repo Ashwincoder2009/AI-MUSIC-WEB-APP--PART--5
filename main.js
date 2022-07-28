@@ -47,9 +47,9 @@ song_1.play();
 document.getElementById("song_name").innerHTML="playing harrypotter song"
 }
 }
+}
 status1=song_1.isPlaying();
 status2=song_2.isPlaying();
-}
 
 function modelLoaded(){
 console.log('Posenet is initialized');
